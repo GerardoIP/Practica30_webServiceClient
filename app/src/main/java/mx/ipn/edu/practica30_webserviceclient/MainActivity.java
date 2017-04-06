@@ -67,10 +67,6 @@ public class MainActivity extends Activity {
         private String countryName;
         private StringBuilder cadena = new StringBuilder();
 
-        public String getTotalResults() {
-            return totalResults;
-//            return countryName;
-        }
 
         @Override
         public void startElement(String uri, String nombreLocal, String
